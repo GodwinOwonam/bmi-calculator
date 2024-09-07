@@ -1,6 +1,8 @@
 # bmi_calculator
 
-A new Flutter project.
+Based on the #londonappbrewery Udemy Flutter course taught by Angela Yu.
+
+This project makes a little tweak by using the routes in the main.dart file to provide a common calculator object so that the calculator can be instantiated once and shared across the pages of the app.
 
 ## Getting Started
 
