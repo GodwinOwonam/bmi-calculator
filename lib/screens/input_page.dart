@@ -226,6 +226,8 @@ class _InputPageState extends State<InputPage> {
               bmiHelper.height = height.toDouble();
               bmiHelper.weight = weight.toDouble();
 
+              bmiHelper.calculateToString();
+
               Navigator.pushNamed(context, '/results');
             },
           ),
